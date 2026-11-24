@@ -1,0 +1,143 @@
+/* ============================================================================
+   CLEAN APPLE LIQUID GLASS UI — ENTERPRISE CYAN · LIGHT · DARK
+   ============================================================================ */
+
+:root {
+  --font-apple: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', 'Noto Sans Myanmar', sans-serif;
+}
+
+html, body, .v-application {
+  font-family: var(--font-apple) !important;
+  overflow-x: hidden !important;
+}
+
+/* Light Mode: Airy Frost White & Ocean Cyan Mesh */
+.v-theme--liquidGlassLight.v-application {
+  background:
+    radial-gradient(circle at 10% 12%, rgba(6, 182, 212, 0.24) 0%, transparent 40%),
+    radial-gradient(circle at 90% 18%, rgba(34, 211, 238, 0.22) 0%, transparent 42%),
+    radial-gradient(circle at 22% 88%, rgba(8, 145, 178, 0.14) 0%, transparent 44%),
+    radial-gradient(circle at 82% 85%, rgba(165, 243, 252, 0.55) 0%, transparent 50%),
+    linear-gradient(145deg, #F5FDFF 0%, #E6F7FA 100%) !important;
+}
+
+/* Dark Mode: Deep Obsidian-Teal Ambient Mesh */
+.v-theme--liquidGlassDark.v-application {
+  background:
+    radial-gradient(circle at 12% 14%, rgba(6, 182, 212, 0.26) 0%, transparent 42%),
+    radial-gradient(circle at 88% 20%, rgba(14, 116, 144, 0.34) 0%, transparent 46%),
+    radial-gradient(circle at 20% 88%, rgba(34, 211, 238, 0.16) 0%, transparent 45%),
+    linear-gradient(145deg, #040B0E 0%, #091820 100%) !important;
+}
+
+/* High-Transparency Frosted Glass Panels */
+.liquid-glass-panel {
+  backdrop-filter: blur(28px) saturate(200%) !important;
+  -webkit-backdrop-filter: blur(28px) saturate(200%) !important;
+  transition: all 0.2s cubic-bezier(0.22, 1, 0.36, 1) !important;
+}
+
+.v-theme--liquidGlassLight .liquid-glass-panel {
+  background: rgba(255, 255, 255, 0.56) !important;
+  border: 1px solid rgba(255, 255, 255, 0.88) !important;
+  box-shadow:
+    0 10px 32px -10px rgba(8, 145, 178, 0.12),
+    inset 0 1px 1px 0 rgba(255, 255, 255, 0.96) !important;
+}
+
+.v-theme--liquidGlassDark .liquid-glass-panel {
+  background: rgba(11, 25, 32, 0.48) !important;
+  border: 1px solid rgba(103, 232, 249, 0.16) !important;
+  box-shadow:
+    0 16px 40px -12px rgba(0, 0, 0, 0.72),
+    inset 0 1px 1px 0 rgba(255, 255, 255, 0.10) !important;
+}
+
+/* Minimalist Frosted Sidebar */
+.liquid-glass-sidebar {
+  backdrop-filter: blur(32px) saturate(210%) !important;
+  -webkit-backdrop-filter: blur(32px) saturate(210%) !important;
+}
+
+.v-theme--liquidGlassLight .liquid-glass-sidebar {
+  background: rgba(255, 255, 255, 0.46) !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.80) !important;
+}
+
+.v-theme--liquidGlassDark .liquid-glass-sidebar {
+  background: rgba(7, 17, 22, 0.52) !important;
+  border-right: 1px solid rgba(34, 211, 238, 0.16) !important;
+}
+
+/* Ticket List Row */
+.ticket-row-item {
+  border-radius: 14px;
+  cursor: pointer;
+  transition: all 0.16s ease;
+  border: 1px solid transparent;
+}
+
+.v-theme--liquidGlassLight .ticket-row-item:hover {
+  background: rgba(255, 255, 255, 0.65);
+}
+
+.v-theme--liquidGlassDark .ticket-row-item:hover {
+  background: rgba(34, 211, 238, 0.10);
+}
+
+.v-theme--liquidGlassLight .ticket-row-active {
+  background: rgba(255, 255, 255, 0.90) !important;
+  border-color: rgba(8, 145, 178, 0.36) !important;
+  box-shadow: 0 4px 16px -6px rgba(8, 145, 178, 0.20);
+}
+
+.v-theme--liquidGlassDark .ticket-row-active {
+  background: rgba(6, 182, 212, 0.18) !important;
+  border-color: rgba(34, 211, 238, 0.42) !important;
+  box-shadow: 0 6px 20px -6px rgba(6, 182, 212, 0.28);
+}
+
+/* Clean Message Bubbles */
+.v-theme--liquidGlassLight .public-bubble {
+  background: rgba(255, 255, 255, 0.72) !important;
+  border: 1px solid rgba(255, 255, 255, 0.92) !important;
+}
+
+.v-theme--liquidGlassDark .public-bubble {
+  background: rgba(255, 255, 255, 0.06) !important;
+  border: 1px solid rgba(255, 255, 255, 0.10) !important;
+}
+
+.v-theme--liquidGlassLight .internal-bubble {
+  background: rgba(254, 243, 199, 0.64) !important;
+  border: 1px solid rgba(245, 158, 11, 0.34) !important;
+}
+
+.v-theme--liquidGlassDark .internal-bubble {
+  background: rgba(245, 158, 11, 0.14) !important;
+  border: 1px solid rgba(251, 191, 36, 0.30) !important;
+}
+
+/* AI Reasoning Surface */
+.v-theme--liquidGlassLight .ai-thinking-box {
+  background: rgba(236, 254, 255, 0.76) !important;
+  border: 1px solid rgba(8, 145, 178, 0.22) !important;
+}
+
+.v-theme--liquidGlassDark .ai-thinking-box {
+  background: rgba(6, 182, 212, 0.12) !important;
+  border: 1px solid rgba(34, 211, 238, 0.26) !important;
+}
+
+/* Soft Cyan Glow */
+.cyan-glow {
+  box-shadow: 0 6px 22px -4px rgba(8, 145, 178, 0.38) !important;
+}
+
+.priority-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+}
