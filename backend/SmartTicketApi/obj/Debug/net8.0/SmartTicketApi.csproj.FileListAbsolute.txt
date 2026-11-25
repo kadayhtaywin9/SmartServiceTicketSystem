@@ -52,3 +52,4 @@ C:\Users\kaday\Documents\SmartServiceTicketSystem\backend\SmartTicketApi\obj\Deb
 C:\Users\kaday\Documents\SmartServiceTicketSystem\backend\SmartTicketApi\obj\Debug\net8.0\SmartTicketApi.pdb
 C:\Users\kaday\Documents\SmartServiceTicketSystem\backend\SmartTicketApi\obj\Debug\net8.0\SmartTicketApi.genruntimeconfig.cache
 C:\Users\kaday\Documents\SmartServiceTicketSystem\backend\SmartTicketApi\obj\Debug\net8.0\ref\SmartTicketApi.dll
+C:\Users\kaday\Documents\SmartServiceTicketSystem\backend\SmartTicketApi\obj\Debug\net8.0\SmartTicketApi.sourcelink.json
